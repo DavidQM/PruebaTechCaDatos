@@ -1,0 +1,22 @@
+estacion,codigo,registros,pct,rachas,racha_mediana,racha_max,firmas,significado_inferido,bandera_equivalente,confianza
+35,1,214388,98.59639440765268,101,774.0,16659,mayoría de los registros,dato normal (suposición),OK,media
+35,2,2944,1.3539367181751287,1,2944.0,2944,un solo tramo continuo de 2944 min (marcado en bloque),periodo marcado en bloque (mantenimiento o fallo prolongado),K,baja
+35,151,9,0.0041390728476821195,8,1.0,2,78% de los registros trae el centinela -999; rachas cortas y dispersas; 89% de sus registros lo detecta también el enfoque regla,dato faltante (centinela -999),F,alta
+35,251,1,0.000459896983075791,1,1.0,1,rachas cortas y dispersas; 100% de sus registros lo detecta también el enfoque regla; 100% de sus registros lo detecta también el enfoque estadístico,sin patrón claro en las columnas,Q,baja
+35,1511,43,0.019775570272259013,41,1.0,2,p1 > 0 con p2 = 0 (el canal 2 no registra); rachas cortas y dispersas,discrepancia entre canales: solo registra el canal 1,I,alta
+35,1512,54,0.024834437086092714,54,1.0,1,p2 > 0 con p1 = 0 (el canal 1 no registra); rachas cortas y dispersas,discrepancia entre canales: solo registra el canal 2,I,alta
+35,2512,1,0.000459896983075791,1,1.0,1,p2 > 0 con p1 = 0 (el canal 1 no registra); rachas cortas y dispersas; 100% de sus registros lo detecta también el enfoque regla; 100% de sus registros lo detecta también el enfoque estadístico,discrepancia entre canales: solo registra el canal 2,I,alta
+367,1,216712,99.68490825540371,484,6.0,35676,mayoría de los registros,dato normal (suposición),OK,media
+367,154,105,0.04829873457315419,2,52.5,57,humedad en 100 % en todo el tramo; 100% de sus registros lo detecta también el enfoque regla,humedad congelada en saturación,P,media
+367,1511,508,0.2336738777444031,449,1.0,10,lluvia constante de 0.01 mm en todos los registros; rachas cortas y dispersas,lluvia mínima aislada (un solo paso),J,media
+367,1567,72,0.033119132278734295,10,2.0,49,rachas cortas y dispersas; 53% de sus registros lo detecta también el enfoque estadístico,sin patrón claro en las columnas,Q,baja
+803,1,191042,87.90896290229065,6637,8.0,1276,mayoría de los registros,dato normal (suposición),OK,media
+803,2,42,0.019326516901499186,29,1.0,11,rachas cortas y dispersas,sin patrón claro en las columnas,Q,baja
+803,151,7955,3.6605343321768102,167,3.0,1350,"mediana 164.9, más de 10 veces la del código 1; 68% de sus registros lo detecta también el enfoque regla",nivel alto o extremo marcado por el equipo,J,media
+803,251,394,0.1813011347426352,2,197.0,393,"mediana 157.7, más de 10 veces la del código 1; 100% de sus registros lo detecta también el enfoque regla",nivel alto o extremo marcado por el equipo,J,media
+803,1502,14333,6.595403970218758,5711,2.0,29,rachas cortas y dispersas,sin patrón claro en las columnas,Q,baja
+803,1504,2987,1.3744834758280493,740,2.0,157,valores negativos en casi todos los registros; rachas cortas y dispersas; 100% de sus registros lo detecta también el enfoque regla,nivel negativo (cota cero o desplazamiento),R,media
+803,2502,565,0.25998766784159616,165,2.0,42,rachas cortas y dispersas; 58% de sus registros lo detecta también el enfoque estadístico,sin patrón claro en las columnas,Q,baja
+6004,1,213093,99.19468585765956,657,32.0,2879,mayoría de los registros,dato normal (suposición),OK,media
+6004,1582,977,0.45479301564543834,126,7.5,21,valores muy bajos en horas de amanecer o atardecer,radiación casi nula en horas de transición,J,baja
+6004,1583,753,0.3505211266950001,332,2.0,14,valores muy altos (picos) con cambios bruscos entre minutos; rachas cortas y dispersas,picos de radiación (posible exceso sobre la cota),R,media

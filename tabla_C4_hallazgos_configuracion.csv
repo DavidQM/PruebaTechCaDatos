@@ -1,0 +1,7 @@
+estacion,hallazgo,evidencia,recomendacion
+6004,zona_horaria,correlación con la geometría solar 0.867 con desfase -5 h frente a 0.064 sin corregir,declarar la zona horaria; guardar en UTC y convertir en los productos
+35/367,escala_de_lluvia,r=0.986 y pendiente 0.27 entre acumulados diarios (35 contra 367),"revisar factor de escala, resolución y captación de uno de los pluviómetros"
+803,nivel_negativo_cota_cero,5.4 % de valores negativos (mínimo -7.1),documentar unidad y cota cero de la mira; definir el rango por estación
+367,codificacion_del_norte,"dv no usa 360 y dv_max sí (608 casos); ceros: dv 592, dv_max 306",normalizar la convención de la dirección en la capa validada
+35/367,resolucion_de_lluvia_distinta,resolución mínima 0.254 mm en 35 y 0.010 mm en 367,declarar el tipo de sensor y la resolución en los metadatos
+6004,marcas_de_tiempo_con_segundos,14 registros con segundos distintos de cero,alinear las marcas al minuto en la ingesta

@@ -1,0 +1,17 @@
+codigo,bandera,familia,origen,que_pasa_con_el_dato,bit
+OK,Aprobado,ok,todas las pruebas,entra a los productos,0
+F,Faltante,rechazo,regla,no entra a agregados; cuenta contra la cobertura,1
+X,Formato inválido,rechazo,regla,se excluye; se conserva el crudo,2
+D,Duplicado,rechazo,regla,se conserva uno; el resto va a cuarentena,3
+R,Fuera de rango,rechazo,regla,se excluye con causa registrada,4
+J,Salto máximo,sospechoso,regla,se conserva marcado para revisión,5
+P,Persistencia o valor congelado,sospechoso,regla,se conserva marcado; excluir si se confirma falla,6
+A,Anomalía estadística (MAD),sospechoso,estadístico,se conserva marcado para revisión,7
+N,Anomalía multivariada (Isolation Forest),sospechoso,ML,se conserva marcado para revisión,8
+T,Cambio de régimen,sospechoso,estadístico,se conserva marcado; revisar cota cero o calibración,9
+I,Incoherente,incoherente,regla,se conserva marcado para revisión humana,10
+E,Inconsistencia espacial,incoherente,regla,"revisión humana, sin rechazo automático",11
+Q,Marcado por el equipo (calidad distinta de 1),contexto,etiqueta débil,informativo; no decide por sí solo,12
+M,Imputado,modificado,tratamiento,"se publica solo si el producto lo permite, siempre marcado",13
+C,Corregido,modificado,revisión,se conserva el original junto al corregido,14
+K,Mantenimiento,contexto,bitácora,se excluye de productos y de la cobertura,15
