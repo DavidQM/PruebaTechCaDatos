@@ -184,5 +184,3 @@ FIN FUNCION
 ```
 
 ---
-
-*Convertido desde `PtechDatosConceptual.docx` · 2 de octubre de 2026*
